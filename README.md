@@ -53,5 +53,16 @@ You should now be up and running!
 ***
 ***
 
+### GitHub Actions CI/CD
+This project uses GitHub Actions to automate deployments. On every push to the main branch, the workflow builds and pushes a Docker image to ECR, then updates the ECS service to use the new image.
+
+Make sure to set the following secrets in your GitHub repository:
+
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+- ECR_REGISTRY
+- ECR_REPOSITORY
+
 ### References
 This project is based on the official ChatGPT quick-start tutorial that can be found [here](https://platform.openai.com/docs/quickstart/build-your-application)
+
