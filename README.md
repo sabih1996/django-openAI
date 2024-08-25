@@ -55,5 +55,3 @@ You should now be up and running!
 
 ### References
 This project is based on the official ChatGPT quick-start tutorial that can be found [here](https://platform.openai.com/docs/quickstart/build-your-application)
-
-The Flask app that this Django app is based on can be found [here](https://github.com/openai/openai-quickstart-python)
